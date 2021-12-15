@@ -1,0 +1,108 @@
+26-Aug-2021 13:45:49.024 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:        Apache Tomcat/9.0.30.redhat-4
+26-Aug-2021 13:45:49.045 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:          Mar 31 2020 09:14:38 UTC
+26-Aug-2021 13:45:49.045 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:         9.0.30.0
+26-Aug-2021 13:45:49.045 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:               Linux
+26-Aug-2021 13:45:49.045 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:            3.10.0-862.el7.x86_64
+26-Aug-2021 13:45:49.046 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+26-Aug-2021 13:45:49.046 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-1.el7_9.x86_64/jre
+26-Aug-2021 13:45:49.046 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:           1.8.0_292-b10
+26-Aug-2021 13:45:49.046 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:            Red Hat, Inc.
+26-Aug-2021 13:45:49.046 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /hli_app/sw/was/domains/TET_SMP
+26-Aug-2021 13:45:49.046 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /hli_app/sw/was/jws/tomcat
+26-Aug-2021 13:45:49.074 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.config.file=/hli_app/sw/was/domains/TET_SMP/conf/logging.properties
+26-Aug-2021 13:45:49.075 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Aug-2021 13:45:49.075 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -D[SERVER_NAME=TET_SMP]
+26-Aug-2021 13:45:49.075 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dserver.base=/hli_app/sw/was
+26-Aug-2021 13:45:49.075 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=/hli_app/sw/was/domains/TET_SMP
+26-Aug-2021 13:45:49.075 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base.log=/hli_app/log/was/TET_SMP
+26-Aug-2021 13:45:49.075 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djws.webapp=/hli_app/app/was/comm/smp
+26-Aug-2021 13:45:49.075 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djws.docbase=smp
+26-Aug-2021 13:45:49.075 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dfile.encoding=UTF-8
+26-Aug-2021 13:45:49.075 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dserver.encoding=UTF-8
+26-Aug-2021 13:45:49.075 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dserver.name=TET_SMP
+26-Aug-2021 13:45:49.075 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Xms256m
+26-Aug-2021 13:45:49.076 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Xmx512m
+26-Aug-2021 13:45:49.076 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -XX:MetaspaceSize=256m
+26-Aug-2021 13:45:49.076 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -XX:MaxMetaspaceSize=256m
+26-Aug-2021 13:45:49.076 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -XX:+UseConcMarkSweepGC
+26-Aug-2021 13:45:49.076 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -verbose:gc
+26-Aug-2021 13:45:49.076 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Xloggc:/hli_app/log/was/TET_SMP/gclog/TET_SMP_gc.log
+26-Aug-2021 13:45:49.076 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -XX:+PrintGCDetails
+26-Aug-2021 13:45:49.076 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -XX:+PrintGCTimeStamps
+26-Aug-2021 13:45:49.076 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -XX:+PrintHeapAtGC
+26-Aug-2021 13:45:49.076 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -XX:+HeapDumpOnOutOfMemoryError
+26-Aug-2021 13:45:49.076 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -XX:HeapDumpPath=/hli_app/log/was/TET_SMP/TET_SMP_java_pid_20210826134547.hprof
+26-Aug-2021 13:45:49.076 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dajp.bind.addr=192.168.56.102
+26-Aug-2021 13:45:49.076 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dhttp.bind.port=18101
+26-Aug-2021 13:45:49.076 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dhttps.bind.port=8443
+26-Aug-2021 13:45:49.076 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dajp.bind.port=18001
+26-Aug-2021 13:45:49.077 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dshutdown.bind.port=8005
+26-Aug-2021 13:45:49.077 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dmanagement.bind.port=9990
+26-Aug-2021 13:45:49.077 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.security.egd=file:/dev/./urandom
+26-Aug-2021 13:45:49.077 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.net.preferIPv4Stack=true
+26-Aug-2021 13:45:49.077 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djdk.tls.ephemeralDHKeySize=2048
+26-Aug-2021 13:45:49.077 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Aug-2021 13:45:49.077 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Aug-2021 13:45:49.077 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dignore.endorsed.dirs=
+26-Aug-2021 13:45:49.077 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=/hli_app/sw/was/domains/TET_SMP
+26-Aug-2021 13:45:49.077 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.home=/hli_app/sw/was/jws/tomcat
+26-Aug-2021 13:45:49.077 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.io.tmpdir=/hli_app/sw/was/domains/TET_SMP/temp
+26-Aug-2021 13:45:49.077 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+26-Aug-2021 13:45:49.596 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-18101"]을(를) 초기화합니다.
+26-Aug-2021 13:45:49.636 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["ajp-nio-192.168.56.102-18001"]을(를) 초기화합니다.
+26-Aug-2021 13:45:49.641 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-9990"]을(를) 초기화합니다.
+26-Aug-2021 13:45:49.649 정보 [main] org.apache.catalina.startup.Catalina.load [981] 밀리초 내에 서버가 초기화되었습니다.
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+26-Aug-2021 13:45:50.356 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+26-Aug-2021 13:45:50.357 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.30.redhat-4]
+26-Aug-2021 13:45:51.356 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+26-Aug-2021 13:45:51.417 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/hli_app/app/was/comm/smp/ROOT]을(를) 배치합니다.
+26-Aug-2021 13:45:51.711 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+26-Aug-2021 13:45:51.714 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/hli_app/app/was/comm/smp/ROOT]에 대한 배치가 [298] 밀리초에 완료되었습니다.
+26-Aug-2021 13:45:51.723 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-18101"]을(를) 시작합니다.
+26-Aug-2021 13:45:51.757 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["ajp-nio-192.168.56.102-18001"]을(를) 시작합니다.
+26-Aug-2021 13:45:51.764 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-9990"]을(를) 시작합니다.
+26-Aug-2021 13:45:51.776 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [2,126] 밀리초 내에 시작되었습니다.
+26-Aug-2021 13:47:18.225 심각 [ajp-nio-192.168.56.102-18001-exec-1] org.apache.coyote.ajp.AjpMessage.processHeader 서명 [18245]와(과) 함께, 유효하지 않은 메시지를 받았습니다.
+26-Aug-2021 13:47:22.632 심각 [ajp-nio-192.168.56.102-18001-exec-2] org.apache.coyote.ajp.AjpMessage.processHeader 서명 [18245]와(과) 함께, 유효하지 않은 메시지를 받았습니다.
+26-Aug-2021 13:47:25.062 심각 [ajp-nio-192.168.56.102-18001-exec-3] org.apache.coyote.ajp.AjpMessage.processHeader 서명 [18245]와(과) 함께, 유효하지 않은 메시지를 받았습니다.
+2021-08-26 13:58:36 에 생성된 세션 : 1682E6A24F493977CA1B76D100A834C8
+-Djava.util.logging.config.file=/hli_app/sw/was/domains/TET_SMP/conf/logging.properties
+-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+-D[SERVER_NAME=TET_SMP]
+-Dserver.base=/hli_app/sw/was
+-Dcatalina.base=/hli_app/sw/was/domains/TET_SMP
+-Dcatalina.base.log=/hli_app/log/was/TET_SMP
+-Djws.webapp=/hli_app/app/was/comm/smp
+-Djws.docbase=smp
+-Dfile.encoding=UTF-8
+-Dserver.encoding=UTF-8
+-Dserver.name=TET_SMP
+-Xms256m
+-Xmx512m
+-XX:MetaspaceSize=256m
+-XX:MaxMetaspaceSize=256m
+-XX:+UseConcMarkSweepGC
+-verbose:gc
+-Xloggc:/hli_app/log/was/TET_SMP/gclog/TET_SMP_gc.log
+-XX:+PrintGCDetails
+-XX:+PrintGCTimeStamps
+-XX:+PrintHeapAtGC
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:HeapDumpPath=/hli_app/log/was/TET_SMP/TET_SMP_java_pid_20210826134547.hprof
+-Dajp.bind.addr=192.168.56.102
+-Dhttp.bind.port=18101
+-Dhttps.bind.port=8443
+-Dajp.bind.port=18001
+-Dshutdown.bind.port=8005
+-Dmanagement.bind.port=9990
+-Djava.security.egd=file:/dev/./urandom
+-Djava.net.preferIPv4Stack=true
+-Djdk.tls.ephemeralDHKeySize=2048
+-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+-Dignore.endorsed.dirs=
+-Dcatalina.base=/hli_app/sw/was/domains/TET_SMP
+-Dcatalina.home=/hli_app/sw/was/jws/tomcat
+-Djava.io.tmpdir=/hli_app/sw/was/domains/TET_SMP/temp
+1817483ms 만에 세션이 삭제 : 1682E6A24F493977CA1B76D100A834C8

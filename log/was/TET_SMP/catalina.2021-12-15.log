@@ -1,0 +1,65 @@
+15-Dec-2021 10:10:01.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.30.redhat-4
+15-Dec-2021 10:10:01.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 31 2020 09:14:38 UTC
+15-Dec-2021 10:10:01.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.30.0
+15-Dec-2021 10:10:01.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+15-Dec-2021 10:10:01.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-862.el7.x86_64
+15-Dec-2021 10:10:01.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Dec-2021 10:10:01.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-1.el7_9.x86_64/jre
+15-Dec-2021 10:10:01.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_292-b10
+15-Dec-2021 10:10:01.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+15-Dec-2021 10:10:01.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /hli_app/sw/was/domains/TET_SMP
+15-Dec-2021 10:10:01.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /hli_app/sw/was/jws/tomcat
+15-Dec-2021 10:10:01.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/hli_app/sw/was/domains/TET_SMP/conf/logging.properties
+15-Dec-2021 10:10:01.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Dec-2021 10:10:01.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -D[SERVER_NAME=TET_SMP]
+15-Dec-2021 10:10:01.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dserver.base=/hli_app/sw/was
+15-Dec-2021 10:10:01.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/hli_app/sw/was/domains/TET_SMP
+15-Dec-2021 10:10:01.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base.log=/hli_app/log/was/TET_SMP
+15-Dec-2021 10:10:01.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djws.webapp=/hli_app/app/was/comm/smp
+15-Dec-2021 10:10:01.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djws.docbase=smp
+15-Dec-2021 10:10:01.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+15-Dec-2021 10:10:01.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dserver.encoding=UTF-8
+15-Dec-2021 10:10:01.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dserver.name=TET_SMP
+15-Dec-2021 10:10:01.675 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms256m
+15-Dec-2021 10:10:01.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+15-Dec-2021 10:10:01.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MetaspaceSize=256m
+15-Dec-2021 10:10:01.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxMetaspaceSize=256m
+15-Dec-2021 10:10:01.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseConcMarkSweepGC
+15-Dec-2021 10:10:01.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -verbose:gc
+15-Dec-2021 10:10:01.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xloggc:/hli_app/log/was/TET_SMP/gclog/TET_SMP_gc.log
+15-Dec-2021 10:10:01.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCDetails
+15-Dec-2021 10:10:01.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintGCTimeStamps
+15-Dec-2021 10:10:01.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+PrintHeapAtGC
+15-Dec-2021 10:10:01.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+15-Dec-2021 10:10:01.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=/hli_app/log/was/TET_SMP/TET_SMP_java_pid_20211215100958.hprof
+15-Dec-2021 10:10:01.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dajp.bind.addr=192.168.56.102
+15-Dec-2021 10:10:01.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.bind.port=18101
+15-Dec-2021 10:10:01.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttps.bind.port=8443
+15-Dec-2021 10:10:01.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dajp.bind.port=18001
+15-Dec-2021 10:10:01.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dshutdown.bind.port=8005
+15-Dec-2021 10:10:01.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dmanagement.bind.port=9990
+15-Dec-2021 10:10:01.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.egd=file:/dev/./urandom
+15-Dec-2021 10:10:01.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.net.preferIPv4Stack=true
+15-Dec-2021 10:10:01.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/hli_app/app/was/exporter/jmx_prometheus_javaagent-0.13.0.jar=9200:/hli_app/app/was/exporter/tomcat.yaml
+15-Dec-2021 10:10:01.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Dec-2021 10:10:01.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Dec-2021 10:10:01.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Dec-2021 10:10:01.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+15-Dec-2021 10:10:01.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/hli_app/sw/was/domains/TET_SMP
+15-Dec-2021 10:10:01.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/hli_app/sw/was/jws/tomcat
+15-Dec-2021 10:10:01.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/hli_app/sw/was/domains/TET_SMP/temp
+15-Dec-2021 10:10:01.714 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+15-Dec-2021 10:10:02.677 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-18101"]
+15-Dec-2021 10:10:02.786 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-192.168.56.102-18001"]
+15-Dec-2021 10:10:02.809 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9990"]
+15-Dec-2021 10:10:02.815 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2,195] milliseconds
+15-Dec-2021 10:10:03.782 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Dec-2021 10:10:03.783 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.30.redhat-4]
+15-Dec-2021 10:10:05.670 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2021 10:10:05.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/hli_app/app/was/comm/smp/ROOT]
+15-Dec-2021 10:10:06.676 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Dec-2021 10:10:06.693 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/hli_app/app/was/comm/smp/ROOT] has finished in [807] ms
+15-Dec-2021 10:10:06.707 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-18101"]
+15-Dec-2021 10:10:06.724 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-192.168.56.102-18001"]
+15-Dec-2021 10:10:06.731 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9990"]
+15-Dec-2021 10:10:06.737 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3,921] milliseconds

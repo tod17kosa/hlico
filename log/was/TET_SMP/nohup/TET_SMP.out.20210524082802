@@ -1,0 +1,118 @@
+24-May-2021 06:54:42.270 경고 [main] org.apache.catalina.core.StandardContext.setPath 컨텍스트 경로는 반드시 빈 문자열이거나, 또는 '/'로 시작하고 '/'로 끝나지 않는 문자열이어야 합니다. 해당 경로 [/]은(는) 이 조건을 충족시키지 않아 [](으)로 변경되었습니다.
+24-May-2021 06:54:42.332 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:        Apache Tomcat/9.0.30.redhat-4
+24-May-2021 06:54:42.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:          Mar 31 2020 09:14:38 UTC
+24-May-2021 06:54:42.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:         9.0.30.0
+24-May-2021 06:54:42.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:               Linux
+24-May-2021 06:54:42.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:            3.10.0-862.el7.x86_64
+24-May-2021 06:54:42.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          amd64
+24-May-2021 06:54:42.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-1.el7_9.x86_64/jre
+24-May-2021 06:54:42.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:           1.8.0_292-b10
+24-May-2021 06:54:42.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:            Red Hat, Inc.
+24-May-2021 06:54:42.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /hli_app/sw/was/domains/TET_SMP
+24-May-2021 06:54:42.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /hli_app/sw/was/jws/tomcat
+24-May-2021 06:54:42.337 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.config.file=/hli_app/sw/was/domains/TET_SMP/conf/logging.properties
+24-May-2021 06:54:42.337 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2021 06:54:42.337 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -D[SERVER_NAME=TET_SMP]
+24-May-2021 06:54:42.337 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dserver.base=/hli_app/sw/was
+24-May-2021 06:54:42.337 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=/hli_app/sw/was/domains/TET_SMP
+24-May-2021 06:54:42.338 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base.log=/hli_app/log/was/TET_SMP
+24-May-2021 06:54:42.338 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djws.webapp=/hli_app/app/was/comm/smp
+24-May-2021 06:54:42.338 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djws.docbase=smp
+24-May-2021 06:54:42.338 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dfile.encoding=UTF-8
+24-May-2021 06:54:42.338 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dserver.encoding=UTF-8
+24-May-2021 06:54:42.338 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dserver.name=TET_SMP
+24-May-2021 06:54:42.338 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Xms256m
+24-May-2021 06:54:42.338 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Xmx512m
+24-May-2021 06:54:42.338 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -XX:MetaspaceSize=256m
+24-May-2021 06:54:42.338 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -XX:MaxMetaspaceSize=256m
+24-May-2021 06:54:42.338 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -XX:+UseConcMarkSweepGC
+24-May-2021 06:54:42.338 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -verbose:gc
+24-May-2021 06:54:42.339 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Xloggc:/hli_app/log/was/TET_SMP/gclog/TET_SMP_gc.log
+24-May-2021 06:54:42.339 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -XX:+PrintGCDetails
+24-May-2021 06:54:42.339 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -XX:+PrintGCTimeStamps
+24-May-2021 06:54:42.339 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -XX:+PrintHeapAtGC
+24-May-2021 06:54:42.339 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -XX:+HeapDumpOnOutOfMemoryError
+24-May-2021 06:54:42.339 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -XX:HeapDumpPath=/hli_app/log/was/TET_SMP/TET_SMP_java_pid_20210524065440.hprof
+24-May-2021 06:54:42.339 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dajp.bind.addr=192.168.56.102
+24-May-2021 06:54:42.339 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dhttp.bind.port=18101
+24-May-2021 06:54:42.339 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dhttps.bind.port=8443
+24-May-2021 06:54:42.339 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dajp.bind.port=18001
+24-May-2021 06:54:42.339 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dshutdown.bind.port=8005
+24-May-2021 06:54:42.339 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dmanagement.bind.port=9990
+24-May-2021 06:54:42.339 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.security.egd=file:/dev/./urandom
+24-May-2021 06:54:42.340 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.net.preferIPv4Stack=true
+24-May-2021 06:54:42.340 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2021 06:54:42.340 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2021 06:54:42.340 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-May-2021 06:54:42.340 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dignore.endorsed.dirs=
+24-May-2021 06:54:42.340 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.base=/hli_app/sw/was/domains/TET_SMP
+24-May-2021 06:54:42.340 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Dcatalina.home=/hli_app/sw/was/jws/tomcat
+24-May-2021 06:54:42.340 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트: -Djava.io.tmpdir=/hli_app/sw/was/domains/TET_SMP/temp
+24-May-2021 06:54:42.340 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+24-May-2021 06:54:42.907 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-18101"]을(를) 초기화합니다.
+24-May-2021 06:54:42.947 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["ajp-nio-192.168.56.102-18001"]을(를) 초기화합니다.
+24-May-2021 06:54:42.950 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-9990"]을(를) 초기화합니다.
+24-May-2021 06:54:42.951 정보 [main] org.apache.catalina.startup.Catalina.load [1,074] 밀리초 내에 서버가 초기화되었습니다.
+24-May-2021 06:54:42.964 심각 [main] org.apache.tomcat.util.modeler.Registry.registerComponent [Catalina:type=DataSource,class=javax.sql.DataSource,name="SMPDS"]을(를) 위해 널 bean을 등록할 수 없습니다.
+24-May-2021 06:54:42.970 심각 [main] org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans MBean들을 생성하는 중 예기치 않은 오류 발생
+	java.lang.NullPointerException
+		at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:129)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+		at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:127)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:101)
+		at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:76)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:923)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+24-May-2021 06:54:42.971 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+24-May-2021 06:54:42.971 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.30.redhat-4]
+24-May-2021 06:54:43.452 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+24-May-2021 06:54:43.505 심각 [main] org.apache.catalina.valves.AccessLogValve.open 접근 로그 파일 [/hli_app/sw/was/domains/TET_SMP/logs/localhost_access_log.2021-05-24.txt]을(를) 열지 못했습니다.
+	java.io.FileNotFoundException: /hli_app/sw/was/domains/TET_SMP/logs/localhost_access_log.2021-05-24.txt (허가 거부)
+		at java.io.FileOutputStream.open0(Native Method)
+		at java.io.FileOutputStream.open(FileOutputStream.java:270)
+		at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+		at org.apache.catalina.valves.AccessLogValve.open(AccessLogValve.java:651)
+		at org.apache.catalina.valves.AccessLogValve.startInternal(AccessLogValve.java:685)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardPipeline.startInternal(StandardPipeline.java:176)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:933)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+24-May-2021 06:54:43.515 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/hli_app/app/was/comm/smp/smp.war]을(를) 배치합니다.
+24-May-2021 06:54:43.694 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+24-May-2021 06:54:43.699 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/hli_app/app/was/comm/smp/smp.war]의 배치가 [185] 밀리초에 완료되었습니다.
+24-May-2021 06:54:43.711 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-18101"]을(를) 시작합니다.
+24-May-2021 06:54:43.728 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["ajp-nio-192.168.56.102-18001"]을(를) 시작합니다.
+24-May-2021 06:54:43.736 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-9990"]을(를) 시작합니다.
+24-May-2021 06:54:43.743 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [791] 밀리초 내에 시작되었습니다.

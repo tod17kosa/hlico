@@ -1,0 +1,102 @@
+OpenJDK 64-Bit Server VM (25.292-b10) for linux-amd64 JRE (1.8.0_292-b10), built on Apr 21 2021 14:24:48 by "mockbuild" with gcc 4.8.5 20150623 (Red Hat 4.8.5-44)
+Memory: 4k page, physical 1015368k(90916k free), swap 839676k(549500k free)
+CommandLine flags: -XX:CompressedClassSpaceSize=260046848 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/hli_app/log/was/TET_SMP/TET_SMP_java_pid_20210623173740.hprof -XX:InitialHeapSize=268435456 -XX:MaxHeapSize=536870912 -XX:MaxMetaspaceSize=268435456 -XX:MaxNewSize=174485504 -XX:MaxTenuringThreshold=6 -XX:MetaspaceSize=268435456 -XX:NewSize=174485504 -XX:OldPLABSize=16 -XX:OldSize=348971008 -XX:+PrintGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintHeapAtGC -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
+{Heap before GC invocations=0 (full 0):
+ par new generation   total 153344K, used 136320K [0x00000000e0000000, 0x00000000ea660000, 0x00000000ea660000)
+  eden space 136320K, 100% used [0x00000000e0000000, 0x00000000e8520000, 0x00000000e8520000)
+  from space 17024K,   0% used [0x00000000e8520000, 0x00000000e8520000, 0x00000000e95c0000)
+  to   space 17024K,   0% used [0x00000000e95c0000, 0x00000000e95c0000, 0x00000000ea660000)
+ concurrent mark-sweep generation total 91776K, used 0K [0x00000000ea660000, 0x00000000f0000000, 0x0000000100000000)
+ Metaspace       used 19009K, capacity 19524K, committed 19584K, reserved 1067008K
+  class space    used 2003K, capacity 2152K, committed 2176K, reserved 1048576K
+4.686: [GC (Allocation Failure) 4.704: [ParNew: 136320K->17024K(153344K), 0.0264391 secs] 136320K->21705K(245120K), 0.0497000 secs] [Times: user=0.01 sys=0.05, real=0.05 secs] 
+Heap after GC invocations=1 (full 0):
+ par new generation   total 153344K, used 17024K [0x00000000e0000000, 0x00000000ea660000, 0x00000000ea660000)
+  eden space 136320K,   0% used [0x00000000e0000000, 0x00000000e0000000, 0x00000000e8520000)
+  from space 17024K, 100% used [0x00000000e95c0000, 0x00000000ea660000, 0x00000000ea660000)
+  to   space 17024K,   0% used [0x00000000e8520000, 0x00000000e8520000, 0x00000000e95c0000)
+ concurrent mark-sweep generation total 91776K, used 4681K [0x00000000ea660000, 0x00000000f0000000, 0x0000000100000000)
+ Metaspace       used 19009K, capacity 19524K, committed 19584K, reserved 1067008K
+  class space    used 2003K, capacity 2152K, committed 2176K, reserved 1048576K
+}
+{Heap before GC invocations=1 (full 0):
+ par new generation   total 153344K, used 153344K [0x00000000e0000000, 0x00000000ea660000, 0x00000000ea660000)
+  eden space 136320K, 100% used [0x00000000e0000000, 0x00000000e8520000, 0x00000000e8520000)
+  from space 17024K, 100% used [0x00000000e95c0000, 0x00000000ea660000, 0x00000000ea660000)
+  to   space 17024K,   0% used [0x00000000e8520000, 0x00000000e8520000, 0x00000000e95c0000)
+ concurrent mark-sweep generation total 91776K, used 4681K [0x00000000ea660000, 0x00000000f0000000, 0x0000000100000000)
+ Metaspace       used 20981K, capacity 21394K, committed 21504K, reserved 1069056K
+  class space    used 2158K, capacity 2282K, committed 2304K, reserved 1048576K
+7561.923: [GC (Allocation Failure) 7561.959: [ParNew: 153344K->16824K(153344K), 2.9777493 secs] 158025K->30451K(245120K), 3.0134573 secs] [Times: user=0.00 sys=2.58, real=3.02 secs] 
+Heap after GC invocations=2 (full 0):
+ par new generation   total 153344K, used 16824K [0x00000000e0000000, 0x00000000ea660000, 0x00000000ea660000)
+  eden space 136320K,   0% used [0x00000000e0000000, 0x00000000e0000000, 0x00000000e8520000)
+  from space 17024K,  98% used [0x00000000e8520000, 0x00000000e958e3a0, 0x00000000e95c0000)
+  to   space 17024K,   0% used [0x00000000e95c0000, 0x00000000e95c0000, 0x00000000ea660000)
+ concurrent mark-sweep generation total 91776K, used 13626K [0x00000000ea660000, 0x00000000f0000000, 0x0000000100000000)
+ Metaspace       used 20981K, capacity 21394K, committed 21504K, reserved 1069056K
+  class space    used 2158K, capacity 2282K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=2 (full 0):
+ par new generation   total 153344K, used 153144K [0x00000000e0000000, 0x00000000ea660000, 0x00000000ea660000)
+  eden space 136320K, 100% used [0x00000000e0000000, 0x00000000e8520000, 0x00000000e8520000)
+  from space 17024K,  98% used [0x00000000e8520000, 0x00000000e958e3a0, 0x00000000e95c0000)
+  to   space 17024K,   0% used [0x00000000e95c0000, 0x00000000e95c0000, 0x00000000ea660000)
+ concurrent mark-sweep generation total 91776K, used 13626K [0x00000000ea660000, 0x00000000f0000000, 0x0000000100000000)
+ Metaspace       used 21003K, capacity 21458K, committed 21504K, reserved 1069056K
+  class space    used 2158K, capacity 2282K, committed 2304K, reserved 1048576K
+28742.814: [GC (Allocation Failure) 28742.817: [ParNew: 153144K->2631K(153344K), 0.0134187 secs] 166771K->17591K(245120K), 0.0168391 secs] [Times: user=0.00 sys=0.01, real=0.02 secs] 
+Heap after GC invocations=3 (full 0):
+ par new generation   total 153344K, used 2631K [0x00000000e0000000, 0x00000000ea660000, 0x00000000ea660000)
+  eden space 136320K,   0% used [0x00000000e0000000, 0x00000000e0000000, 0x00000000e8520000)
+  from space 17024K,  15% used [0x00000000e95c0000, 0x00000000e9851d98, 0x00000000ea660000)
+  to   space 17024K,   0% used [0x00000000e8520000, 0x00000000e8520000, 0x00000000e95c0000)
+ concurrent mark-sweep generation total 91776K, used 14960K [0x00000000ea660000, 0x00000000f0000000, 0x0000000100000000)
+ Metaspace       used 21003K, capacity 21458K, committed 21504K, reserved 1069056K
+  class space    used 2158K, capacity 2282K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=3 (full 0):
+ par new generation   total 153344K, used 138951K [0x00000000e0000000, 0x00000000ea660000, 0x00000000ea660000)
+  eden space 136320K, 100% used [0x00000000e0000000, 0x00000000e8520000, 0x00000000e8520000)
+  from space 17024K,  15% used [0x00000000e95c0000, 0x00000000e9851d98, 0x00000000ea660000)
+  to   space 17024K,   0% used [0x00000000e8520000, 0x00000000e8520000, 0x00000000e95c0000)
+ concurrent mark-sweep generation total 91776K, used 14960K [0x00000000ea660000, 0x00000000f0000000, 0x0000000100000000)
+ Metaspace       used 21003K, capacity 21458K, committed 21504K, reserved 1069056K
+  class space    used 2158K, capacity 2282K, committed 2304K, reserved 1048576K
+50174.828: [GC (Allocation Failure) 50174.831: [ParNew: 138951K->1040K(153344K), 0.0158443 secs] 153911K->16000K(245120K), 0.0197568 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+Heap after GC invocations=4 (full 0):
+ par new generation   total 153344K, used 1040K [0x00000000e0000000, 0x00000000ea660000, 0x00000000ea660000)
+  eden space 136320K,   0% used [0x00000000e0000000, 0x00000000e0000000, 0x00000000e8520000)
+  from space 17024K,   6% used [0x00000000e8520000, 0x00000000e86240b8, 0x00000000e95c0000)
+  to   space 17024K,   0% used [0x00000000e95c0000, 0x00000000e95c0000, 0x00000000ea660000)
+ concurrent mark-sweep generation total 91776K, used 14960K [0x00000000ea660000, 0x00000000f0000000, 0x0000000100000000)
+ Metaspace       used 21003K, capacity 21458K, committed 21504K, reserved 1069056K
+  class space    used 2158K, capacity 2282K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=4 (full 0):
+ par new generation   total 153344K, used 137360K [0x00000000e0000000, 0x00000000ea660000, 0x00000000ea660000)
+  eden space 136320K, 100% used [0x00000000e0000000, 0x00000000e8520000, 0x00000000e8520000)
+  from space 17024K,   6% used [0x00000000e8520000, 0x00000000e86240b8, 0x00000000e95c0000)
+  to   space 17024K,   0% used [0x00000000e95c0000, 0x00000000e95c0000, 0x00000000ea660000)
+ concurrent mark-sweep generation total 91776K, used 14960K [0x00000000ea660000, 0x00000000f0000000, 0x0000000100000000)
+ Metaspace       used 21007K, capacity 21458K, committed 21504K, reserved 1069056K
+  class space    used 2158K, capacity 2282K, committed 2304K, reserved 1048576K
+71598.864: [GC (Allocation Failure) 71598.870: [ParNew: 137360K->641K(153344K), 0.0615615 secs] 152320K->15601K(245120K), 0.0668761 secs] [Times: user=0.01 sys=0.05, real=0.07 secs] 
+Heap after GC invocations=5 (full 0):
+ par new generation   total 153344K, used 641K [0x00000000e0000000, 0x00000000ea660000, 0x00000000ea660000)
+  eden space 136320K,   0% used [0x00000000e0000000, 0x00000000e0000000, 0x00000000e8520000)
+  from space 17024K,   3% used [0x00000000e95c0000, 0x00000000e9660678, 0x00000000ea660000)
+  to   space 17024K,   0% used [0x00000000e8520000, 0x00000000e8520000, 0x00000000e95c0000)
+ concurrent mark-sweep generation total 91776K, used 14960K [0x00000000ea660000, 0x00000000f0000000, 0x0000000100000000)
+ Metaspace       used 21007K, capacity 21458K, committed 21504K, reserved 1069056K
+  class space    used 2158K, capacity 2282K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=5 (full 0):
+ par new generation   total 153344K, used 136961K [0x00000000e0000000, 0x00000000ea660000, 0x00000000ea660000)
+  eden space 136320K, 100% used [0x00000000e0000000, 0x00000000e8520000, 0x00000000e8520000)
+  from space 17024K,   3% used [0x00000000e95c0000, 0x00000000e9660678, 0x00000000ea660000)
+  to   space 17024K,   0% used [0x00000000e8520000, 0x00000000e8520000, 0x00000000e95c0000)
+ concurrent mark-sweep generation total 91776K, used 14960K [0x00000000ea660000, 0x00000000f0000000, 0x0000000100000000)
+ Metaspace       used 21007K, capacity 21458K, committed 21504K, reserved 1069056K
+  class space    used 2158K, capacity 2282K, committed 2304K, reserved 1048576K
+93884.717: [GC (Allocation Failure) 93884.718: [ParNew: 136961K->669K(153344K), 0.0286301 secs] 151921K->15629K(245120K), 0.0298574 secs] [Times: user=0.00 sys=0.02, real=0.03 secs] 

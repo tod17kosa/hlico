@@ -1,0 +1,11 @@
+Red Hat JBoss Web Server - Version 5.3 GA
+
+Java Components:
+Apache Tomcat 9.0.30-3.redhat_4.1.el7jws
+Tomcat Vault 1.1.8-1.Final_redhat_1.1.el7jws
+JBoss mod_cluster 1.4.1-1.Final_redhat_00001.2.el7jws
+
+Native Components:
+Apache Tomcat Native 1.2.23-4.redhat_4.el7jws
+Apache Portable Runtime (APR) 1.6.3-83.jbcs.el7
+OpenSSL 1.1.1c-13.jbcs.el7

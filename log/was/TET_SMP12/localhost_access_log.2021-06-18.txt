@@ -1,0 +1,17 @@
+192.168.56.101 - - [18/Jun/2021:10:28:16 +0900] "GET /smp/ HTTP/1.1" 200 562
+192.168.56.1 - - [18/Jun/2021:10:46:30 +0900] "GET /smp/failover.jsp HTTP/1.1" 200 2747
+192.168.56.1 - - [18/Jun/2021:10:46:33 +0900] "GET /smp/dbconn.html HTTP/1.1" 304 -
+192.168.56.1 - - [18/Jun/2021:10:46:45 +0900] "GET /smp/dbconn.jsp?type=jndi&jndi_name=SMPDS&jdbc_class=com.mysql.jdbc.Driver&jdbc_url=jdbc%3Amysql%3A%2F%2Flocalhost%3A3306%2Frockplace&jdbc_user=rockplace&jdbc_pw=rplinux&sql_type=oracle HTTP/1.1" 200 2281
+192.168.56.1 - - [18/Jun/2021:10:46:49 +0900] "GET /smp/jvm_options.jsp HTTP/1.1" 200 4798
+192.168.56.1 - - [18/Jun/2021:10:47:53 +0900] "GET /smp/ HTTP/1.1" 304 -
+192.168.56.1 - - [18/Jun/2021:10:49:54 +0900] "GET /smp/ HTTP/1.1" 304 -
+192.168.56.1 - - [18/Jun/2021:10:49:54 +0900] "GET /smp/ HTTP/1.1" 304 -
+192.168.56.1 - - [18/Jun/2021:10:49:55 +0900] "GET /smp/ HTTP/1.1" 304 -
+192.168.56.1 - - [18/Jun/2021:10:49:55 +0900] "GET /smp/ HTTP/1.1" 304 -
+192.168.56.1 - - [18/Jun/2021:10:49:55 +0900] "GET /smp/ HTTP/1.1" 304 -
+192.168.56.1 - - [18/Jun/2021:10:49:57 +0900] "GET /smp/ HTTP/1.1" 304 -
+192.168.56.1 - - [18/Jun/2021:10:49:59 +0900] "GET /smp/jvm_options.jsp HTTP/1.1" 200 4798
+192.168.56.1 - - [18/Jun/2021:10:50:02 +0900] "GET /smp/failover.jsp HTTP/1.1" 200 2750
+192.168.56.1 - - [18/Jun/2021:10:50:18 +0900] "GET /smp/jvm_options.jsp HTTP/1.1" 200 4798
+192.168.56.1 - - [18/Jun/2021:10:50:21 +0900] "GET /smp/failover.jsp HTTP/1.1" 200 2750
+192.168.56.1 - - [18/Jun/2021:10:50:48 +0900] "GET /smp/jvm_options.jsp HTTP/1.1" 200 4798

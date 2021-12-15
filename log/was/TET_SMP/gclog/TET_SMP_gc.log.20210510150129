@@ -1,0 +1,11 @@
+OpenJDK 64-Bit Server VM (25.292-b10) for linux-amd64 JRE (1.8.0_292-b10), built on Apr 21 2021 14:24:48 by "mockbuild" with gcc 4.8.5 20150623 (Red Hat 4.8.5-44)
+Memory: 4k page, physical 1015508k(344220k free), swap 839676k(839676k free)
+CommandLine flags: -XX:CompressedClassSpaceSize=260046848 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/hli_app/log/was/TET_SMP/TET_SMP_java_pid_20210510145434.hprof -XX:InitialHeapSize=268435456 -XX:MaxHeapSize=536870912 -XX:MaxMetaspaceSize=268435456 -XX:MaxNewSize=87244800 -XX:MaxTenuringThreshold=6 -XX:MetaspaceSize=268435456 -XX:NewSize=87244800 -XX:OldPLABSize=16 -XX:OldSize=174489600 -XX:+PrintGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintHeapAtGC -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
+Heap
+ par new generation   total 76672K, used 50530K [0x00000000e0000000, 0x00000000e5330000, 0x00000000e5330000)
+  eden space 68160K,  74% used [0x00000000e0000000, 0x00000000e31589f8, 0x00000000e4290000)
+  from space 8512K,   0% used [0x00000000e4290000, 0x00000000e4290000, 0x00000000e4ae0000)
+  to   space 8512K,   0% used [0x00000000e4ae0000, 0x00000000e4ae0000, 0x00000000e5330000)
+ concurrent mark-sweep generation total 176960K, used 0K [0x00000000e5330000, 0x00000000f0000000, 0x0000000100000000)
+ Metaspace       used 14969K, capacity 15396K, committed 15616K, reserved 1062912K
+  class space    used 1602K, capacity 1709K, committed 1792K, reserved 1048576K

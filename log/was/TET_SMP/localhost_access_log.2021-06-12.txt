@@ -1,0 +1,9 @@
+192.168.56.1 - - [12/Jun/2021:03:13:07 +0900] "GET /smp/ HTTP/1.1" 304 -
+192.168.56.1 - - [12/Jun/2021:03:13:15 +0900] "GET /smp/dbconn.html HTTP/1.1" 304 -
+192.168.56.1 - - [12/Jun/2021:03:13:21 +0900] "GET /smp/dbconn.jsp?type=jndi&jndi_name=defaultDS&jdbc_class=com.mysql.jdbc.Driver&jdbc_url=jdbc%3Amysql%3A%2F%2Flocalhost%3A3306%2Frockplace&jdbc_user=rockplace&jdbc_pw=rplinux&sql_type=mysql HTTP/1.1" 200 1878
+192.168.56.1 - - [12/Jun/2021:03:13:43 +0900] "GET /smp/dbconn.jsp?type=jndi&jndi_name=SMPDS&jdbc_class=com.mysql.jdbc.Driver&jdbc_url=jdbc%3Amysql%3A%2F%2Flocalhost%3A3306%2Frockplace&jdbc_user=rockplace&jdbc_pw=rplinux&sql_type=oracle HTTP/1.1" 200 2281
+192.168.56.1 - - [12/Jun/2021:08:42:28 +0900] "GET /smp HTTP/1.1" 302 -
+192.168.56.1 - - [12/Jun/2021:08:42:29 +0900] "GET /smp/ HTTP/1.1" 304 -
+192.168.56.1 - - [12/Jun/2021:08:42:32 +0900] "GET /smp/aaaa.html HTTP/1.1" 200 13
+192.168.56.1 - - [12/Jun/2021:08:42:34 +0900] "GET /smp/jvm_options.jsp HTTP/1.1" 200 4775
+192.168.56.1 - - [12/Jun/2021:08:47:52 +0900] "GET /smp/ HTTP/1.1" 304 -

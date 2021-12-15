@@ -1,0 +1,7 @@
+OpenJDK 64-Bit Server VM warning: If the number of processors is expected to increase from one, then you should configure the number of parallel GC threads appropriately using -XX:ParallelGCThreads=N
+오류: 비밀번호 파일 읽기 액세스는 제한되어야 합니다.: /hli_app/sw/was/domains/TET_SMP/bin/ext/common/jmxremote.password
+sun.management.AgentConfigurationError
+	at sun.management.jmxremote.ConnectorBootstrap.checkPasswordFile(ConnectorBootstrap.java:577)
+	at sun.management.jmxremote.ConnectorBootstrap.startRemoteConnectorServer(ConnectorBootstrap.java:426)
+	at sun.management.Agent.startAgent(Agent.java:262)
+	at sun.management.Agent.startAgent(Agent.java:452)
